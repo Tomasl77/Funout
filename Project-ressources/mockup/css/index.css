@@ -1,13 +1,129 @@
-.sizeicon{
+/* CREDITS 
+
+http://creativecommons.org/licenses/by/3.0/
+
+
+*/
+
+
+
+.iconsize{
     width: 50px;
     height: 50px;
 }
 
-.bg-navbar {
-    background-color:rgb(7.2%, 93.3%, 78.7%)
+.buticon {
+    width: 40px;
+    height: 40px;
+    float: left;
+    margin: 15px 0 0 15px;
 }
 
+.buticon2 {
+    width: 70px;
+    height: 70px;
+    float: left;
+}
+
+
+.bg-navbar {
+    background-color:lightgrey
+}
 
 .red {
     border:2px solid red;
 }
+
+.black {
+    border:2px solid black
+}
+
+.text-left{
+    text-align: left;
+}
+
+.text-right{
+    text-align: right;
+}
+
+.carousize {
+    height:180px;
+}
+
+.carousel-item img {
+	height: 180px;
+	width: 100%;
+	padding: 2px;
+}
+
+.buttonsize {
+    width: 80%;
+    height: 100px;
+}
+
+.flex {
+    display: flex;
+}
+
+.fontsize25 {
+    font-size: 45px;
+}
+/*****************************
+******** PADDING  ************
+*****************************/
+
+.padleft40{
+    padding-left: 40px;
+}
+
+
+/*****************************
+******** MARGING  ************
+*****************************/
+
+.martop10 {
+    margin-top: 100px;
+}
+
+.martopbot30 {
+    margin: 30px 0 30px 0;
+}
+
+
+/***************************
+******* STARS RATING *******
+***************************/
+
+.rating {
+    unicode-bidi: bidi-override;
+    direction: rtl;
+    font-size: 30px;
+  }
+  .rating > span {
+    display: inline-block;
+    position: relative;
+    width: 1.1em;
+  }
+  .rating > span:hover:before,
+  .rating > span:hover ~ span:before {
+     content: "\2605";
+     position: absolute;
+  }
+
+
+  /***********************
+  ******* MEDIA QUERIES **
+  ***********************/
+
+  @media screen AND (max-width:900px){
+
+        .buticon2{
+            width: 30px;
+            height: 30px;
+        }
+
+        .buticon{
+            width: 20px;
+            height: 20px;
+        }
+  }

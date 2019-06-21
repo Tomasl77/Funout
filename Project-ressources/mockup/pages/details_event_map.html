@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Fun Out</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/index.css">
+
+  
+</head>
+<body>
+  <nav class="navbar navbar-expand-sm bg-navbar navbar-dark">
+    <!-- Brand/logo -->
+    <a class="navbar-brand" href="#">
+      <img src="../img/logo.PNG" alt="logo">
+    </a>
+    
+    <!-- Links -->
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link iconsize" href="#">
+          <img src="../img/music.svg" alt="">
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link iconsize" href="#">
+        <img src="../img/movies.svg" alt="">
+      </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link iconsize" href="#">
+        <img src="../img/drink.svg" alt="">
+      </a>
+      </li>
+    </ul>
+  </nav>
+  <div>
+    <div class="row">
+
+      <div class="col text-left"> <!-- Left Pane opening-->
+
+        <div class="container"> 
+
+          <div class="row"> <!-- First row beginning -->
+            
+            <div class="col-12 col-md-6 padleft40"> <!--Place's Name + stars beginning-->
+              <h1>
+              Les Ancolies
+              </h1>
+                <div class="rating">
+                  <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+                </div>
+              <p><a href="#">99 Comments</a></p>
+              <button type="button" class="btn btn-secondary">Secondary</button>
+            </div> <!--Place's Name + stars ending-->
+            
+            <div class="col-12 col-md-6">
+
+                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel"> <!-- Carousel Beginning-->
+
+                    <div class="carousel-inner carousize">
+                      <div class="carousel-item active">
+                        <img src="../img/paysage.png" class="d-block w-100" alt="1">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="../img/portrait.png" class="d-block w-100" alt="2">
+                      </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                  
+                  </div> <!--Carousel ending-->
+
+            </div>
+          </div> <!-- First row ending -->
+        
+          <!-- Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop -->
+        
+          <div class="row"> <!-- Second row beginning -->
+            <div class="col-12 padleft40 martopbot30">
+              <div class="flex">
+                <h2>Les Ancolies' details</h2>
+                <p class="text-right"><a href="#">Horaires</a></p>
+              </div>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores omnis quasi, labore dolor qui a nulla ducimus sit nam nemo? Iste veritatis a cupiditate vero, impedit rerum inventore atque nihil.</p>
+            </div>
+          </div> <!-- Second row ending -->
+        
+          <!-- Columns are always 50% wide, on mobile and desktop -->
+          
+          <div class="row"> <!-- Third row beginning -->
+            <div class="col-12 text-center fontsize25">
+              <p><button type="button" class="btn btn-secondary btn-lg buttonsize"><img class= "buticon2"src="../img/2-people.svg" alt=""> <img class="buticon" src="../img/plus.svg" alt="plus"> Create Event</button></p>
+              <p><button type="button" class="btn btn-secondary btn-lg buttonsize"><img class="buticon2" src="../img/people.svg" alt="plus"><img class="buticon" src="../img/reply.svg" alt="plus">Join Event</button></p>
+            </div>
+          </div><!-- Third row ending -->
+        
+        </div>
+
+      </div> <!-- Left Pane closing-->
+
+      <div class="col"> <!-- Right Pane opening-->
+        <iframe id="gmap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1312.5849055566998!2d2.491386458331092!3d48.854972194821855!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e61282e081eaf7%3A0x2d4d7d095e7afa1a!2zQ2FtcHVzIGxlcyBEdW5lcyBkZSBsYSBTb2Npw6l0w6kgR8OpbsOpcmFsZQ!5e0!3m2!1sfr!2sfr!4v1561103985006!5m2!1sfr!2sfr" width="100%" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
+      </div> <!-- Right Pane closing-->
+    </div>
+  </div>
+<nav class="navbar navbar-expand-sm bg-navbar navbar-dark fixed-bottom justify-content-center">
+    <a class="navbar-brand" href="#">About Us</a>
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#">Contact</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Legals Mentions</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Help</a>
+      </li>
+    </ul>
+  </nav>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
+
+</body>
+</html>
