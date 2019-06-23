@@ -25,7 +25,6 @@ http://creativecommons.org/licenses/by/3.0/
     float: left;
 }
 
-
 .bg-navbar {
     background-color:lightgrey
 }
@@ -63,6 +62,14 @@ http://creativecommons.org/licenses/by/3.0/
 
 .flex {
     display: flex;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(0, 0, 0, 1);
+}
+
+.full-width {
+    width: 100%;
 }
 
 .fontsize25 {
